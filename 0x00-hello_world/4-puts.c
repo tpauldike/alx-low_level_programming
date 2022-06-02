@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Entry of the main function
+ * main - Entry point of the program
  *
- * Return: Always return (0)
+ * Return: Always returns (0)
  */
 
-int main(void);
+int main(void)
 {
-printf("Programming is like building a multilingual puzzle,\n");
-return (0);
+	printf("\"Programming is like building a multilingual puzzle,\n");
+	return (0);
 }
