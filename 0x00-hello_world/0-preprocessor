@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc CFILE='main.c' -o c
+make $CFILE
