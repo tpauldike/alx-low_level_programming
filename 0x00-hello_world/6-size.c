@@ -1,17 +1,15 @@
 #include <stdio.h>
 
 /**
- * main - Entry point of the program
- *
- * Return: Always return (0)
+ * main - main block
+ * Return: 0
  */
-
- init main() {
-     init a = 16;
-     printf("Size of variable a: %d\n", sizeof (a));
-     printf("Size of int data type %d\n", sizeof(int));
-     printf("Size of char data type: %d \n", sizeof(char)):
-     printf"Size of float data type:%d\n", Sizeof(float));
- printf("Size of double data type %d\n", sizeof (double));
- return 0;
- }
+int main(void)
+{
+	printf("Size of a char: %i byye(s)\n", sizeof(char));
+	printf("Size of an int: %i byte(s)\n", sizeof(int));
+	printf("Size of a long int: %i bytes\n", sizeof(long int));
+	printf("Size of a long long int; %i bytes\n", sizeof(long long int));
+	printf("Size of a float: %i bytes(s)\n", sizeof(float));
+	return (0);
+}
