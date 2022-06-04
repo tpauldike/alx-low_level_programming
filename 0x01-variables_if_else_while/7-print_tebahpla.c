@@ -7,11 +7,11 @@
 
 int main(void)
 {
-	char Topman = 'z';
+	char topman = 'z';
 
-	for (Topman = 'z'; Topman >= 'a'; Topman--)
+	for (topman = 'z'; topman >= 'a'; topman--)
 	{
-		putchar (Topman);
+		putchar (topman);
 	}
 	return (0);
 }
