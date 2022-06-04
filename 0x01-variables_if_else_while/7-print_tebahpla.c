@@ -12,6 +12,7 @@ int main(void)
 	for (topman = 'z'; topman >= 'a'; topman--)
 	{
 		putchar (topman);
+		putchar ('\n');
 	}
 	return (0);
 }
