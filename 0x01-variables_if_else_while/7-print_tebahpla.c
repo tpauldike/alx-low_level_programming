@@ -7,11 +7,9 @@
 
 int main(void)
 {
-	char topman = 'z';
+	char topman;
 
 	for (topman = 'z'; topman >= 'a'; topman--)
-	{
 		putchar (topman);
-	}
 	return (0);
 }
