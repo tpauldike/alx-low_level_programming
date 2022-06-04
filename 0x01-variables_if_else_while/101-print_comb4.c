@@ -1,14 +1,12 @@
 #include <stdio.h>
-
 /**
  * main - Entry point
  * Return: 0
  */
 
-
 int main(void)
 {
-	ini num1, num2, num3;
+	int num1, num2, num3;
 
 	for (num1 = '0'; num1 < '9'; num1++)
 	{
