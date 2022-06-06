@@ -1,7 +1,7 @@
-#include<stdio>
+#include<stdio.h>
 
 /**
- * main - Entru [oint
+ * main - Entry pint
  * Return: 0
  */
 int main(void)
