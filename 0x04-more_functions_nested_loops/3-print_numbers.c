@@ -1,7 +1,7 @@
 include "main.h"
 
 /**
- * print_numbers - A script that prints numbers from 0-9, followed by a new line
+ * print_numbers - A script that prints numbers from 0-9, and a new line
  *
  * @i: the integer to be printed
  *
