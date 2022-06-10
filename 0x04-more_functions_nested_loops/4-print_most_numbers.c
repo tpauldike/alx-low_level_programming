@@ -14,7 +14,7 @@ void print_most_numbers(void)
 
 	for (Topman = '0'; Topman <= '9'; Topman++)
 	{
-		if (Topman = '2' || Topman = '4')
+		if (Topman == '2' || Topman == '4')
 		{
 			continue;
 		}
