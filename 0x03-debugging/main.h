@@ -4,6 +4,7 @@
 #include <stdio.h>
 
 void positive_or_negative(int i);
-int largest_number(largest);
+void largest_number(int largest);
+void print_remaining_days(int day);
 
 #endif /* MAIN_H */
