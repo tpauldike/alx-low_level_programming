@@ -10,7 +10,7 @@
 
 int _isupper(int c)
 {
-	for (c = 65; c <= 122)
+	if (c == 65; c <= 122)
 	{
 		if (c <= 90)
 		{
