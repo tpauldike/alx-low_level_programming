@@ -1,0 +1,16 @@
+#include "main.h"
+
+/**
+ * mul - A program that multiplies two integers
+ *
+ *
+ *
+ * Return: 0
+ */
+
+int mul(int a, int b)
+{
+	int product;
+	product = a * b;
+	return (product);
+}
