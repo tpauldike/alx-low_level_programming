@@ -1,4 +1,4 @@
-include "main.h"
+#include "main.h"
 
 /**
  * print_numbers - A script that prints numbers from 0-9, and a new line
