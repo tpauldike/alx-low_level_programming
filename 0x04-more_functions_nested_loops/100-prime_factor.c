@@ -6,6 +6,7 @@
  *
  * Return: 0 all the time
  */
+
 int main(void)
 {
 	long prime = 612852475143, divisor;
@@ -18,7 +19,7 @@ int main(void)
 			continue;
 		}
 
-		for (divisor = 3; divisor < (prime / 2); div += 2)
+		for (divisor = 3; divisor < (prime / 2); divisor += 2)
 		{
 			if ((prime % divisor) == 0)
 				prime /= divisor;
