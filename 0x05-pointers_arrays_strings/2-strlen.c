@@ -10,5 +10,5 @@ int _strlen(char *s)
 	char a;
 	char *str = &a;
 
-	s = sizeof(a) / sizeof(a[0]);
+	*s = sizeof(a) / sizeof(a[0]);
 }s
