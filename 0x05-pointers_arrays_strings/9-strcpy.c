@@ -5,13 +5,12 @@
  * null byte, to the buffer pointed to by @dest
  * @dest: The pointer to the buffer
  * @src: The pointer to the source string
- * Return: dest
+ * Return: *dest
  */
-char *_strcpy(char *dest, char *src)
+char *_strcpy(char *dest, const char *src)
 {
-	int index;
+	int index = 0;
 
-	index = 0;
 	while (src[index])
 	{
 		dest[index] = src[index];
