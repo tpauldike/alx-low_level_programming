@@ -7,8 +7,8 @@
  */
 int _strlen(char *s)
 {
-	char a;
-	char *str = &a;
+	int len;
 
-	*s = sizeof(a) / sizeof(a[0]);
-}s
+	for (len = 0; s[len] != '\0'; ++len);
+	return (len);
+}
