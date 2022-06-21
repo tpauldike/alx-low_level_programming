@@ -9,6 +9,14 @@
   */
 char *_memset(char *s, char b, unsigned int n)
 {
-	(s, b, n);
-	return (s);
+	while (b >= 0)
+	{
+		while (n >= 0)
+		{
+			(s, b, n);
+			n++;
+		}
+	}
+	_putchar ('\n');
+	return (*s);
 }
