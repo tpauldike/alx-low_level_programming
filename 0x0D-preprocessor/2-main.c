@@ -6,9 +6,9 @@
  *
  * Return: 0
  */
-void main(void)
+int main(void)
 {
-	printf("This file is named: %s". _FILE_);
+	printf("The file name is: %s\n", __FILE__);
 
 	return (0);
 }
