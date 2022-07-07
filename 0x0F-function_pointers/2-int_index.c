@@ -1,4 +1,5 @@
 /* A function that searches for an integer */
+#include <stddef.h>
 #include "function_pointers.h"
 
 /**
