@@ -3,6 +3,9 @@
 #include <stddef.h>
 #include "3-calc.h"
 
+/* A function that is an array of pointers */
+int (*get_op_func(char *s))(int, int);
+
 /**
  * main - check the code for Holberton School students.
  * @argc: argument count.
@@ -27,7 +30,7 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 
-	operation = get_op_func(argv[2]);
+	operation = (*get_op_func)(argv[2]);
 
 	if (operation == NULL)
 	{
