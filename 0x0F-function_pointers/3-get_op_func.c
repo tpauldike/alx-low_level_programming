@@ -1,4 +1,7 @@
 #include <stdio.h>
+#include <string.h>
+#include <stdarg.h>
+#include <typedef.h>
 #include "3-calc.h"
 
 /**
