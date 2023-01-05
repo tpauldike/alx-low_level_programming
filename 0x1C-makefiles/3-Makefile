@@ -1,0 +1,22 @@
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:c=o)
+NAME = school
+RM = rm -f
+
+
+all: $(OBJ)
+	$(CC) $(OBJ) -o $(NAME)
+
+# emacs file represented with *~ while executables with $(NAME)
+clean:
+	$(RM) *~ $(NAME)
+
+oclean:
+	$(RM) $(OBJ)
+
+# combines the functionality of clean and oclean
+fclean: clean oclean
+
+# combines the functionality of fclean and all
+re: fclean all
