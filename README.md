@@ -30,4 +30,4 @@ Project Title | Brief Description
 [C - Doubly linked list](./0x17-doubly_linked_lists) | A more complex form of singly linked list
 [C - Dynamic libraries](./0x18-dynamic_libraries) | The meaning, function, making and usage of static libraries in `c`; understanding what `nm`, `ldd` and `ldconfig` do and how they are used; knowing the use of the environment variable `$LD_LIBRARY_PATH` and how to use it
 [C - Hash tables](./0x1A-hash_tables) | About `hash functions` and `hash tables`, what collisions are and the common ways to handle them
-[C - Makefile](./0x1C-makefiles) | Writing own **Makefile** and running it with the `make` utility in a Linux machine
+[C - Makefile](./0x1C-makefiles) | Writing own **Makefile** and running it with the `make` utility on a Linux machine
