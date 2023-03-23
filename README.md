@@ -13,4 +13,7 @@ Project Title | Brief Description
 [C - More functions, Nested loops](./0x04-more_functions_nested_loops) | All about writing some user define functions, saving the prototypes in the `main.h` file and testing them in some `main.c` files
 [C - Pointers arrays strings - 0](./0x05-pointers_arrays_strings) | About `pointers`, `arrays`, `strings` and how to manipulate them
 [C - Pointers arrays strings - 1](./0x06-pointers_arrays_strings) | Here, I was made to write more `user defined functions` and to emulate some standard library functions defined in `strings.h`
-[C - Pointers arrays strings - 2](./0x07-pointers_arrays_strings) | This was about `pointers to pointers`, multidimensional arrays, and emulating common standard library functions used to manipulate strings
+[C - Pointers arrays strings - 2](./0x07-pointers_arrays_strings) | This was about `pointers to pointers`, `multidimensional arrays`, and emulating common standard library functions used to manipulate strings
+[C - Recursion](./0x08-recursion) | About `recursive functions` in `c`, how to use them, when to use them, and when not to use them
+[C - Static libraries](./0x09-static_libraries) | The meaning, function, making and usage of static libraries in `c`. The project thought me what `ar`, `ranlib` and `nm` do and how they are used
+[argc argv](./0x0A-argc_argv) | The project was about writing programs that arguments could be passed to on the command line while running them. The project revealed the prototypes of main and taught me how to use `__attribute__((unused))` or `(void)` to compile functions with unused variables or parameters
