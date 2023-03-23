@@ -18,7 +18,7 @@ Project Title | Brief Description
 [C - Static libraries](./0x09-static_libraries) | The meaning, function, making and usage of static libraries in `c`; understanding what `ar`, `ranlib` and `nm` do and how they are used
 [C - argc argv](./0x0A-argc_argv) | The project was about writing programs that arguments could be passed to on the command line while running them.
 [C - Malloc, free](./0x0B-malloc_free) | About dynamic *memory allocation* (`malloc`) and `free`ing the dynamically allocated memory, and how to check for memory leaks with `valgrind`
-[C - More malloc, free](./0x0C-more_malloc_free) | This project introduces the `exit`, `calloc`, `realloc` (standard library) functions and how they are used
+[C - More malloc, free](./0x0C-more_malloc_free) | This project introduced the `exit`, `calloc`, `realloc` (standard library) functions and how they are used
 [C - Preprocessor](./0x0D-preprocessor) | About common predefined and user defined `macros` and how to use them; and the essence of `include guard` in header files
 [C - Structures, typedef](./0x0E-structures_typedef) | The project was about using `struct` and `typedef` to create a data structure and non-existing datatype that is made up of some primitive datatypes. If you wish to learn about struct, I simplified it [here](https://github.com/tpauldike/journey_through_C/blob/main/7-struct_typedef/README.md)
 [C - Function pointers](./0x0F-function_pointers) | About pointers that hold the address of funtions and serve as access points of the functions
@@ -30,4 +30,4 @@ Project Title | Brief Description
 [C - Doubly linked list](./0x17-doubly_linked_lists) | A more complex form of singly linked list
 [C - Dynamic libraries](./0x18-dynamic_libraries) | The meaning, function, making and usage of static libraries in `c`; understanding what `nm`, `ldd` and `ldconfig` do and how they are used; knowing the use of the environment variable `$LD_LIBRARY_PATH` and how to use it
 [C - Hash tables](./0x1A-hash_tables) | About `hash functions` and `hash tables`, what collisions are and the common ways to handle them
-[C - Makefile](./0x1C-makefiles) | Writing own **Makefile** and running it with the `make` utility
+[C - Makefile](./0x1C-makefiles) | Writing own **Makefile** and running it with the `make` utility in a Linux machine
