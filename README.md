@@ -16,4 +16,5 @@ Project Title | Brief Description
 [C - Pointers arrays strings - 2](./0x07-pointers_arrays_strings) | This was about `pointers to pointers`, `multidimensional arrays`, and emulating common standard library functions used to manipulate strings
 [C - Recursion](./0x08-recursion) | About `recursive functions` in `c`, how to use them, when to use them, and when not to use them
 [C - Static libraries](./0x09-static_libraries) | The meaning, function, making and usage of static libraries in `c`. The project thought me what `ar`, `ranlib` and `nm` do and how they are used
-[argc argv](./0x0A-argc_argv) | The project was about writing programs that arguments could be passed to on the command line while running them. The project revealed the prototypes of main and taught me how to use `__attribute__((unused))` or `(void)` to compile functions with unused variables or parameters
+[C - argc argv](./0x0A-argc_argv) | The project was about writing programs that arguments could be passed to on the command line while running them.
+[C - Malloc, free](./0x0B-malloc_free) | About dynamic *memory allocation* (`malloc`) and `free`ing the memory, and how to check for memory leaks with `valgrind`
